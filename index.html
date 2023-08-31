@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Rock-Paper-Seasor</title>
+</head>
+<body>
+    <div class="root">
+        <h1>Rock Paper Scissors</h1>
+        <div class="game-conteiner">
+            <div class="img" id="rock">
+                <img src="img/rock-emoji.png" alt="">
+            </div>
+            <div class="img" id="paper">
+                <img src="img/paper-emoji.png" alt="">
+            </div>
+            <div class="img" id="seasor">
+                <img src="img/scissors-emoji.png" alt="">
+            </div>
+        </div>
+        <div class="result" >
+            <p id="result-text"></p>
+            <p id="users-choise"></p>
+            <p id="counter"></p>
+            <button onclick="reset()">reset score</button>
+        </div>
+    </div>
+    <script src="rogkGame.js"></script>
+</body>
+</html>
